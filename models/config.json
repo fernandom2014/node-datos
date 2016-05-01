@@ -1,0 +1,38 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "adminlinux",
+    "database": "login",
+    "host": "localhost",
+    "dialect": "postgres",
+    "define": {
+      "timeStamp": false,
+      "freezeTableName": true,
+      "timestamps": false    
+    }
+  },
+  "test": {
+    "username": "postgres",
+    "password": "adminlinux",
+    "database": "login",
+    "host": "localhost",
+    "dialect": "postgres",
+    "define": {
+      "timeStamp": false,
+      "freezeTableName": true,
+      "timestamps": false    
+    }
+  },
+  "production": {
+   "username": "postgres",
+    "password": "adminlinux",
+    "database": "login",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "define": {
+      "timeStamp": false,
+      "freezeTableName": true,
+      "timestamps": false    
+    }
+  }
+}

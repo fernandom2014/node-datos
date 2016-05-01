@@ -1,0 +1,19 @@
+<div class="jumbotron text-center" ng-init="listarUsuarios();">
+	<h1>Tabla</h1>
+	<p>{{ message }}</p>
+        
+        <table align="center" border="1" >
+            <tr>
+                <th>ID</th>
+                <th>USUARIO</th>
+                <th>PASSWORD</th>
+            </tr>    
+        <tr ng-repeat="usuario in tablaUsuarios">            
+            <td>{{usuario.userid}}</td>
+            <td>{{usuario.username}}</td>
+            <td>{{usuario.password}}</td>
+            <td><a href="/#formulario/{{usuario.userid}}">Modificar</a></td>
+            <td><input type="button" ng-click="borrarUsuario(usuario)" value="Borrar" /> </td>
+        </tr>        
+    </table>
+</div>

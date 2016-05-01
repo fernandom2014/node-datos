@@ -1,0 +1,9 @@
+<div class="jumbotron text-center" ng-init="detalleUser();">
+    <h1>Formulario</h1>
+    <p>{{ message }}</p>
+        <p>Id: <input type="text" readonly="readonly" ng-model="nuevouser.userid" /></p>
+        <p>Username:<input type="text" ng-model="nuevouser.username" /> </p>
+        <p>Password:<input type="text" ng-model="nuevouser.password" /> </p>
+        <p>Token:<input type="text" ng-model="nuevouser.token" /> </p>
+        <p><input type="button" ng-click="modificarUser()" value="Grabar" /> </p>
+</div>

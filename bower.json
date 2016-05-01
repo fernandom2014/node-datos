@@ -1,0 +1,25 @@
+{
+  "name": "datos",
+  "description": "prestacion, ingreso y modificacion de datos",
+  "main": "",
+  "authors": [
+    "Fernando Miño"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-sortable": "^0.14.0",
+    "angular-route": "^1.5.3",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "fontawesome#^4.5.0"
+  }
+}
